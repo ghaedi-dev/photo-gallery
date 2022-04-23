@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     padding: theme.spacing(3),
     overflow: "auto",
-    height: "100%",
+    height: `calc(100% - ${theme.spacing(6)}px)`,
   },
   content: {
     marginTop: theme.spacing(2),
